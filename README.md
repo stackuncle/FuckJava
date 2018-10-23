@@ -1,6 +1,15 @@
 # FuckJava
 Java core knowledge for interview
 
+# 网络基础
+- [计算机网络总结(上)](网络相关/计算机网络总结(上).md)
+- [计算机网络总结(下)](网络相关/计算机网络总结(下).md)
+
+# Nginx基础
+- [Nginx反向代理](Nginx/Nginx反向代理.md)
+- [Nginx的异步非阻塞](Nginx/Nginx的异步非阻塞.md)
+
+
 # Java语言学习之路
 ## Java入门
 - [《Java 核心技术：卷 1 基础知识》](https://s.click.taobao.com/McEa6Lw)
