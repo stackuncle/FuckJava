@@ -175,7 +175,7 @@ public class TreadPoolConfig {
 
 使用时：
 
-```java
+```
     @Resource(name = "consumerQueueThreadPool")
     private ExecutorService consumerQueueThreadPool;
 
