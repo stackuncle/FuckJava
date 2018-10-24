@@ -1,5 +1,5 @@
 # FuckJava
-搞一搞Java，准备下面试
+搞一搞Java，准备下面试。
 
 # Java
 - [Java语言学习之路](Java基础/Java学习之路.md)
@@ -12,7 +12,25 @@
 - [ConcurrentHashMap](Java基础/ConcurrentHashMap.md)
 
 ## 常见面试题
-- [Java集合框架常见面试题](Java基础/Java集合框架常见面试题.md)
+- [接口与抽象类有什么区别](Java基础/接口和抽象类有何区别.md)
+- [强软弱虚四种引用的区别](Java基础/强、软、弱、虚四种引用的区别.md)
+- [Exception和Error有什么区别](Java基础/Exception和Error有何区别.md)
+- [final finally 和 finalize的区别](Java基础/final、finally、finalize有何区别.md)
+- [TODO 整理中……]()
+
+## Java NIO
+- [Java NIO(1) 概述](Java基础/NIO/NIO-summary.md)
+- [Java NIO(2) Channel](Java基础/NIO/NIO-Channel.md)
+- [Java NIO(3) Buffer](Java基础/NIO/NIO-Buffer.md)
+- [Java NIO(4) Scatter+Gather](Java基础/NIO/NIO-Scatter&Gather.md)
+- [Java NIO(5) Channel间数据传输](Java基础/NIO/NIO-Channel间数据传输.md)
+- [Java NIO(6) Selector](Java基础/NIO/NIO-Selector.md)
+- [TODO 整理中……]()
+
+## Java并发
+- [synchronized](Java基础/synchronized.md)
+- [volatile](Java基础/volatile.md)
+- [ThreadPoolExecutor](Java基础/ThreadPoolExecutor.md)
 
 
 # Spring框架

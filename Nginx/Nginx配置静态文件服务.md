@@ -56,3 +56,6 @@ root 指令用来指定文件在服务器上的基路径。
 htpasswd -c -d pass_file bowen
 ```
 这样就在`/usr/local/etc/nginx/pass_file`文件中添加了一个用户。在访问`http://localhost:8890/`时，会弹窗提示输入用户名和密码进行验证，然后就可以正常访问了。
+
+## 参考
+- [深入理解Nginx](https://s.click.taobao.com/lMHywKw)

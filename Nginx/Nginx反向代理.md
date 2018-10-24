@@ -147,4 +147,5 @@ http {
 
 # 参考
 - [Python Web开发实战 董伟明](https://s.click.taobao.com/IRgM6Lw)
+- [深入理解Nginx](https://s.click.taobao.com/lMHywKw)
  
