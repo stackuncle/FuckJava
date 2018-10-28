@@ -18,3 +18,6 @@ finally在try-catch中可以有，可以没有。如果try-catch中有finally则
 
 ## 3、finalize（用于垃圾回收）
 finalize这个是方法名。在java中，允许使用finalize()方法在垃圾收集器将对象从内存中清理出去之前做必要的清理工作。这个方法是由垃圾收集器在确定这个对象没有被引用是对这个对象调用的。它是Object类中定义的，因此，所有的类都继承了它。finalize()方法是在垃圾收集器删除对象之前对这个对象调用的。
+
+finalize 机制现在已经不推荐使用，并且在 JDK 9标记为Deprecated
+
