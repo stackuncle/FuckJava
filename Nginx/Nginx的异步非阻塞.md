@@ -85,3 +85,6 @@ nginx不这样，每进来一个request，会有一个worker进程去处理。�
 
 ## 总结
 web server刚好属于网络io密集型应用，不算是计算密集型。web  server的这种性质决定了每个request的大部份时间都消耗在网络传输中，实际上花费在server机器上的时间片不多。异步非阻塞，使用epoll，和大量细节处的优化，这就是Nginx几个进程就解决高并发的秘密所在。
+
+## 参考
+- [深入理解Nginx](https://s.click.taobao.com/lMHywKw)

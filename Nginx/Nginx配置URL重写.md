@@ -131,3 +131,6 @@ $document_uri ： 与$uri相同。
 上面配置的访问情况：
 - /test_if.html =>/test.html
 - /test_if.html?name=ok => /ok.html?name=ok
+
+## 参考
+- [深入理解Nginx](https://s.click.taobao.com/lMHywKw)
