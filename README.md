@@ -32,20 +32,6 @@
 - [Java NIO(6) Selector](Java基础/NIO/NIO-Selector.md)
 - [TODO 整理中……]()
 
-## Java并发
-- [synchronized](Java基础/synchronized.md)
-- [volatile](Java基础/volatile.md)
-- [ThreadPoolExecutor](Java基础/ThreadPoolExecutor.md)
-
-
-## Java NIO
-- [Java NIO(1) 概述](Java基础/NIO/NIO-summary.md)
-- [Java NIO(2) Channel](Java基础/NIO/NIO-Channel.md)
-- [Java NIO(3) Buffer](Java基础/NIO/NIO-Buffer.md)
-- [Java NIO(4) Scatter+Gather](Java基础/NIO/NIO-Scatter&Gather.md)
-- [Java NIO(5) Channel间数据传输](Java基础/NIO/NIO-Channel间数据传输.md)
-- [Java NIO(6) Selector](Java基础/NIO/NIO-Selector.md)
-
 
 ## Java并发
 - [synchronized](Java基础/synchronized.md)
