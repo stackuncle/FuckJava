@@ -6,49 +6,57 @@
 > 例子： {1,2,3},{3,2,1} 返回：{4,4,4}
 
 ```java
-import java.util.*;
-/*
-public class ListNode {
-    int val;
-    ListNode next = null;
-
-    ListNode(int val) {
-        this.val = val;
-    }
-}*/
-public class Plus {
-    public ListNode plusAB(ListNode a, ListNode b) {
-        // write code here
-        if (a == null) return b;
-        if (b == null) return a;
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        if(l1 == null) return l2;
+        if(l2 == null) return l1;
         
-        ListNode node = new ListNode(-1);
-        ListNode res = node;
-        int next = 0;
-        while (a != null || b != null) {
-            int curr = 0;
-            if (a == null) {
-                curr = next + b.val;
-                b = b.next;
-            } else if (b == null) {
-                curr = next + a.val;
-                a = a.next;
+        ListNode p1 = l1;
+        ListNode p2 = l2;
+        ListNode ans = null, curr = null;
+        int carry = 0;
+        while(p1 != null && p2 != null) {
+            int sum = p1.val + p2.val + carry;
+            int val = sum%10;
+            carry = (sum -val)/10;
+            if(ans == null) {
+                ans = curr = new ListNode(val);
             } else {
-                curr = next + a.val + b.val;
-                a = a.next;
-                b = b.next;
+                curr.next = new ListNode(val);
+                curr = curr.next;
             }
-            
-            next = curr >= 10 ? 1 : 0;
-            curr = curr % 10;
-            node.next = new ListNode(curr);
-            node = node.next;
+            p1 = p1.next;
+            p2 = p2.next;
         }
         
-        if (next > 0) {
-            node.next = new ListNode(next);
+        while(p1 != null) {
+            int sum = p1.val + carry;
+            int val = sum%10;
+            carry = (sum -val)/10;
+            curr.next = new ListNode(val);
+            curr = curr.next;
+            p1 = p1.next;
         }
-        return res.next;
+        
+        while(p2 != null) {
+            int sum = p2.val + carry;
+            int val = sum%10;
+            carry = (sum -val)/10;
+            curr.next = new ListNode(val);
+            curr = curr.next;
+            p2 = p2.next;
+        }
+        
+        if(carry > 0) curr.next = new ListNode(carry);
+        return ans;
     }
 }
 ```
