@@ -39,13 +39,6 @@
 - [ThreadPoolExecutor](Java基础/ThreadPoolExecutor.md)
 
 
-# Spring框架
-- [SpringMVC工作原理详解](Spring框架/SpringMVC%20工作原理详解.md)
-
-# 操作系统
-- [Linux基础知识](操作系统/Linux基础知识.md)
-
-
 # 网络基础
 - [计算机网络总结(上)](网络相关/计算机网络总结(上).md)
 - [计算机网络总结(下)](网络相关/计算机网络总结(下).md)
@@ -55,11 +48,3 @@
 - [Redis基础](数据存储/Redis/Redis.md)
 - [Redis持久化](数据存储/Redis/Redis持久化.md)
 - [MySql基础](数据存储/MySql/MySQL.md)
-
-
-# Nginx基础
-- [Nginx反向代理](Nginx/Nginx反向代理.md)
-- [Nginx异步非阻塞原理](Nginx/Nginx的异步非阻塞.md)
-- [Nginx配置正向代理](Nginx/Nginx配置正向代理.md)
-
-
